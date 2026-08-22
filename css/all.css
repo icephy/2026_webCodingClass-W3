@@ -56,6 +56,10 @@ body{
 
 /* flexbox */
 
+.d-none{
+    display: none;
+}
+
 .d-flex{
     display: flex;
 }
@@ -484,6 +488,9 @@ body{
 /* RWD margin */
 
 @media (max-width: 767px) {
+    .mb-md-0{
+        margin-bottom: 0;
+    }
     .mb-md-4{
         margin-bottom: 4px;
     }
@@ -518,7 +525,6 @@ body{
     .mb-sm-8{
         margin-bottom: 8px;
     }
-
 }
 
 /* gap 間距 */
@@ -584,7 +590,7 @@ body{
     vertical-align: bottom;
 } */
 
-/* 元件 */
+/* 麵包元件 */
 .breadcrumb-item + .breadcrumb-item::before{
     content: "/";
     padding: 0 12px;
@@ -601,6 +607,18 @@ body{
     color: var(--neutral-600);
 }
 
+@media (max-width: 767px) {
+    .breadcrumb-item + .breadcrumb-item::before{
+        padding: 0 8px;
+    }
+    .breadcrumb-item{
+        font-size: 14px;
+    }
+
+}
+
+
+/* 按鈕元件 */
 .btn{
     border-radius: 4px;
     padding: 12px 24px;

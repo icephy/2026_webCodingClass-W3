@@ -10,7 +10,7 @@
 
 @media (max-width: 767px) {
     .header{
-        background-image: url(/img/hero-sm.png);
+        background-image: url(https://github.com/icephy/2026_webCodingClass-W3/blob/master/img/hero-sm.png?raw=true);
         padding: 87px 0;
     }
 
