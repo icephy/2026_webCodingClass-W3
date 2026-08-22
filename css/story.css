@@ -8,11 +8,20 @@
     text-align: center;
 }
 
-.intro img{
+@media (max-width: 767px) {
+    .header{
+        background-image: url(/img/hero-sm.png);
+        padding: 87px 0;
+    }
+
+}
+
+
+/* .intro img{
     width: 1076px;
     margin-right: -110px;
     margin-left: -110px;
-}
+} */
 
 .list-disc{
     list-style-type: disc;
